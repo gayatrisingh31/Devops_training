@@ -1,4 +1,4 @@
- what is GNU project?
+<b> what is GNU project?</b>
 - differennce between unix & linux
 - Integrity check of BIOS
 - another firmware than BIOS

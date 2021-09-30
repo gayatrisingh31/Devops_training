@@ -76,7 +76,8 @@ Ques. Difference between apt update and apt upgrade.
 Ans. apt-get update updates the list of available packages and their versions, but it does not install or upgrade any packages. apt-get upgrade actually installs newer versions of the packages you have. After updating the lists, the package manager knows about available updates for the software you have installed.
 Ques. What do repositories contain in the Linux System?
 Ans. A Linux repository is a storage location from which your system retrieves and installs OS updates and applications. Each repository is a collection of software hosted on a remote server and intended to be used for installing and updating software packages on Linux systems.
-Ques. Difference between apt & apt upgrade.
+### Ques. Difference between apt & apt upgrade.
+| Apt | upgrade |
 Ans. update: like the regular apt-get update with color output enabled, but apt update also shows the number of upgradeable packages (if any). install,remove: adds progress output during the dpkg run. upgrade: the same as apt-get upgrade --with-new-pkgs .
 Ques. What does the number represent after the file permission?
 Ans. The first number of the ls -l output after the permission block is the number of hard links. It is the same value as the one returned by the stat command in "Links''. This number is the hard link count of the file, when referring to a file, or the number of contained directory entries, when referring to a directory.

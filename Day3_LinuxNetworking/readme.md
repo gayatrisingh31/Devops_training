@@ -16,16 +16,17 @@ Ans. iptables contains five tables:
 
 Ans. **prot:** prot is a combination of the following access flags: PROT_NONE or a bitwise-or of the other values in the following list: PROT_NONE The memory cannot be accessed at all. PROT_READ The memory can be read. PROT_WRITE The memory can be modified. PROT_EXEC The memory can be executed.
 Opt: It means reserved for the installation of add-on application software packages. In this context, “add-on”  means software that is not part of the system; for example, any external or third-party software.
-In: packets coming from the network and going to your server.
-Out: An OUT file is a compiled executable file created by various source code compilers in Unix-like operating systems, such as Linux and AIX. It may store executable code, shared libraries, or object code. OUT files have been largely replaced by the newer COFF (Common Object File Format) format.
-Source: source is a shell built-in command which is used to read and execute the content of a file(generally set of commands), passed as an argument in the current shell script.
+**In:** packets coming from the network and going to your server.
+**Out:** An OUT file is a compiled executable file created by various source code compilers in Unix-like operating systems, such as Linux and AIX. It may store executable code, shared libraries, or object code. OUT files have been largely replaced by the newer COFF (Common Object File Format) format.
+**Source:** source is a shell built-in command which is used to read and execute the content of a file(generally set of commands), passed as an argument in the current shell script.
+
 OR
+
 Specifies which packets the command filters based on the source of the packet.
 
 Destination: Specifies which packets the command filters based on the destination of the packet.
-Ques. Why are rules added to the top?
-Ans.
-Ques. What type of rules can we add to the iptables?
+
+### Ques. What type of rules can we add to the iptables?
 Ans.
     1. Delete Existing Rules
     2. Set Default Chain Policies

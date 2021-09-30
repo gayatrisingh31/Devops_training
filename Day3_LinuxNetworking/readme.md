@@ -27,13 +27,16 @@ OR
 
 Specifies which packets the command filters based on the source of the packet.
 
-Destination: Specifies which packets the command filters based on the destination of the packet.
+**Destination:** Specifies which packets the command filters based on the destination of the packet.
 
 ### Ques. What type of rules can we add to the iptables?
 Ans.
     1. Delete Existing Rules
+    
     2. Set Default Chain Policies
+    
     3. Block a Specific ip-address. 
+    
     4. Allow ALL Incoming SSH. 
     5. Allow Incoming SSH only from a Specific Network. 
     6. Allow Incoming HTTP and HTTPS. 

@@ -54,12 +54,14 @@ Ans.Blocking a domain name involves ordering a domain name lookup service (for m
 ### Ques. How can we persist rules in iptables?
 
 Ans.Add rules to the iptables according to your requirement.
+
     1. Verify that all the rules are present using the command “iptables -L“. # iptables -L.
     2. Save the iptables. # service iptables save.
     3. Restart the service.
     4. Making service permanently ON using chkconfig.
 
-Ques. How can we save rules in iptables?
+### Ques. How can we save rules in iptables?
+
 Ans. Saving iptables firewall rules permanently on Linux
     1. Step 1 – Open the terminal. 
     2. Step 2 – Save IPv4 and IPv6 Linux firewall rules. 

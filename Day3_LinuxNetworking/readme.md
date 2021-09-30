@@ -32,11 +32,8 @@ Specifies which packets the command filters based on the source of the packet.
 ### Ques. What type of rules can we add to the iptables?
 Ans.
     1. Delete Existing Rules
-    
     2. Set Default Chain Policies
-    
     3. Block a Specific ip-address. 
-    
     4. Allow ALL Incoming SSH. 
     5. Allow Incoming SSH only from a Specific Network. 
     6. Allow Incoming HTTP and HTTPS. 
@@ -49,12 +46,13 @@ Ans.
     13.  Allow Ping from Inside to Outside
     14. Allow Loopback Access
     15. Allow Internal Network to External network.
+    
+### Ques. Can we block a website by its domain name only?
 
-
-
-Ques. Can we block a website by its domain name only?
 Ans.Blocking a domain name involves ordering a domain name lookup service (for most users, a function performed by their ISP) not to respond to any user request to look up the IP address associated with that name.
-Ques. How can we persist rules in iptables?
+
+### Ques. How can we persist rules in iptables?
+
 Ans.Add rules to the iptables according to your requirement.
     1. Verify that all the rules are present using the command “iptables -L“. # iptables -L.
     2. Save the iptables. # service iptables save.

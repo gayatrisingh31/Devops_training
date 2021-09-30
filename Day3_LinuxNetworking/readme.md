@@ -63,31 +63,47 @@ Ans.Add rules to the iptables according to your requirement.
 ### Ques. How can we save rules in iptables?
 
 Ans. Saving iptables firewall rules permanently on Linux
+
     1. Step 1 – Open the terminal. 
     2. Step 2 – Save IPv4 and IPv6 Linux firewall rules. 
     3. Step 3 – Restore IPv4 and IPv6 Linux firewall rules.
     4. Step 4 – Installing iptables-persistent package for Debian or Ubuntu Linux.
     5. Step 5 – Install iptables-services package for RHEL/CentOS.
 
-Ques. Difference between ufw & iptables?
+### Ques. Difference between ufw & iptables?
+
 Ans. iptables provide a complete firewall solution that is both highly configurable and highly flexible.ufw aims to provide an easy to use interface for people unfamiliar with firewall concepts, while at the same time simplifies complicated iptables commands to help an administrator who knows what he or she is doing.
-Ques. What are public & private keys?
+
+### Ques. What are public & private keys?
 Ans. You keep the private key a secret and store it on the computer you use to connect to the remote system. Conceivably, you can share the public key with anyone without compromising the private key; you store it on the remote system in a . ssh/authorized_keys directory.
-Ques. How does ssh work?
+
+### Ques. How does ssh work?
 Ans. SSH (short for Secure Shell) is a network protocol that provides a secure way for two computers to connect remotely. SSH employs encryption to ensure that hackers cannot interpret the traffic between two connected devices.
-Ques. Difference between HTTP & HTTPS.
+
+### Ques. Difference between HTTP & HTTPS.
 Ans. HTTPS is HTTP with encryption. The only difference between the two protocols is that HTTPS uses TLS (SSL) to encrypt normal HTTP requests and responses. As a result, HTTPS is far more secure than HTTP.
-Ques. What is SSL?
+
+### Ques. What is SSL?
+
 Ans. An SSL certificate is a digital certificate that authenticates a website's identity and enables an encrypted connection. SSL stands for Secure Sockets Layer, a security protocol that creates an encrypted link between a web server and a web browser.
-Ques. Difference between apt update and apt upgrade.
+
+### Ques. Difference between apt update and apt upgrade.
+
 Ans. apt-get update updates the list of available packages and their versions, but it does not install or upgrade any packages. apt-get upgrade actually installs newer versions of the packages you have. After updating the lists, the package manager knows about available updates for the software you have installed.
-Ques. What do repositories contain in the Linux System?
+
+### Ques. What do repositories contain in the Linux System?
+
 Ans. A Linux repository is a storage location from which your system retrieves and installs OS updates and applications. Each repository is a collection of software hosted on a remote server and intended to be used for installing and updating software packages on Linux systems.
+
 ### Ques. Difference between apt & apt upgrade.
-| Apt | | upgrade |
-Ans. update: like the regular apt-get update with color output enabled, but apt update also shows the number of upgradeable packages (if any). install,remove: adds progress output during the dpkg run. upgrade: the same as apt-get upgrade --with-new-pkgs .
-Ques. What does the number represent after the file permission?
+
+Ans. update: like the regular apt-get update with color output enabled, but apt update also shows the number of upgradeable packages (if any). install,remove: adds progress output during the dpkg run. upgrade: the same as apt-get upgrade --with-new-pkgs.
+
+### Ques. What does the number represent after the file permission?
+
 Ans. The first number of the ls -l output after the permission block is the number of hard links. It is the same value as the one returned by the stat command in "Links''. This number is the hard link count of the file, when referring to a file, or the number of contained directory entries, when referring to a directory.
-Ques. Difference between apt and apt -get?
+
+### Ques. Difference between apt and apt -get?
+
 Ans.  apt-get may be considered as lower-level and "back-end", and support other APT-based tools. apt is designed for end-users (human) and its output may be changed between versions. Note from apt(8): The `apt` command is meant to be pleasant for end users and does not need to be backward compatible like apt-get(8).
 

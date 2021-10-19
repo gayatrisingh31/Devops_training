@@ -1,14 +1,19 @@
-### Ques How to install plugin without using Jenkins GUI? 
-ans:We can use the Jenkins CLI to install plugins.
+Ques How to install plugin without using Jenkins GUI? 
+Ans: We can use the Jenkins CLI to install plugins.
 
-What is multi configuration project? These are projects which contain multiple configurations in a single job. Each configuration is executed as a job. It uses axes to implement this.
+Ques: What is multi configuration project? 
+Ans: These are projects which contain multiple configurations in a single job. Each configuration is executed as a job. It uses axes to implement this.
 
-What is new view? It is used by the user to specify and manage the jobs that he wants to view on his screen.
+Que What is new view?
+Ans: It is used by the user to specify and manage the jobs that he wants to view on his screen.
 
-What are executors in Jenkins? Executors are the primary building block of Jenkins whose main purpose is to execute a job. The number of executors denote the maximum number of concurrent build the project can have.
+Que What are executors in Jenkins?
+Ans: Executors are the primary building block of Jenkins whose main purpose is to execute a job. The number of executors denote the maximum number of concurrent build the project can have.
 
-How to access workspace from CLI? Jenkins Installation Workspace apt and Debian repository /var/lib/jenkins/workspace Using docker /var/jenkins_home/workspace .war file ~/.jenkins What are labels in Jenkins Master Slave? Labels are used to group slave nodes or agents. So when executing a pipeline if a node in this label is running a job, it is executed by another node in the label.
+Que: How to access workspace from CLI?
+Ans: Jenkins Installation Workspace apt and Debian repository /var/lib/jenkins/workspace Using docker /var/jenkins_home/workspace .war file ~/.jenkins What are labels in Jenkins Master Slave? Labels are used to group slave nodes or agents. So when executing a pipeline if a node in this label is running a job, it is executed by another node in the label.
 
-How to run jobs in parallel in Jenkins? In the pipeline use build 'Job-Name'
+Que How to run jobs in parallel in Jenkins? 
+Ans: In the pipeline use build 'Job-Name'
 
 
